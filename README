@@ -1,0 +1,9 @@
+# Playing Card Engine written in Zig
+
+SUIT: S/Spade, H/Hearts, D/Diamonds, C/Clubs (4)	00 01 10 11	
+RANK: 2,3,4,5,6,7,8,9,10,11/J,12/Q,13/K,14/A (13)	0000	
+
+
+Architecure:
+1. Define a card bit set (u64)
+2. Iteratevely add a card (6 bits) to the card bit set
